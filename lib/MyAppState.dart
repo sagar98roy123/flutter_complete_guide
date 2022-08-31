@@ -24,8 +24,6 @@ class MyAppState extends State<MyApp> {
       setState(() {
         _questionIndex = _questionIndex + 1;
       });
-    } else {
-      print('We have no more question!');
     }
   }
 
